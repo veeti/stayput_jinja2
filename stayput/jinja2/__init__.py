@@ -10,4 +10,4 @@ class Jinja2Templater(Templater):
         self.env = Environment(loader=FileSystemLoader(site.templates_path))
 
     def template(self, item):
-        return self.env.from_string(item.contents).render()
+        return self.env.from_string(item.contents).render(site=self.site, item=item)
