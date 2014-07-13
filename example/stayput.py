@@ -1,5 +1,5 @@
 from stayput import simple_router
-from stayput.jinja2 import Jinja2Templater
+from stayput_jinja2 import Jinja2Templater
 
 def configure(site):
     site.router = simple_router

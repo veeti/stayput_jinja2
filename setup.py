@@ -5,7 +5,7 @@ requires = [
 ]
 
 setup(
-    name='stayput.jinja2',
+    name='stayput_jinja2',
     version='0.1.0',
     description="Jinja2 templating for the stayput static site generator",
     license='MIT',
